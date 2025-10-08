@@ -14,12 +14,21 @@ export default function TopCharts() {
       style={{
         backgroundColor: "rgb(40, 40, 43)",
         marginTop: "10%",
+<<<<<<< HEAD
         flexDirection: "grow", // Corrected property value
         display: "flex",
         flexWrap: "wrap",
         justifyContent: "space-between",
         width: "80%",
         padding: "1em",
+=======
+     
+        display: "flex",
+       
+        justifyContent: "space-around",
+        width: "100%",
+     
+>>>>>>> 0eed2b9 (Your commit message)
         boxSizing: "border-box",
       }}
     >
@@ -30,7 +39,11 @@ return(
   <div
 key={index}
 style={{
+<<<<<<< HEAD
   width: "30%", // Full width on small screens, 50% on medium screens, and 33.33% on large screens
+=======
+  width: "40%", // Full width on small screens, 50% on medium screens, and 33.33% on large screens
+>>>>>>> 0eed2b9 (Your commit message)
   marginBottom: "1em",
   boxSizing: "border-box",
 }}

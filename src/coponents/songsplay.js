@@ -162,17 +162,31 @@ let animation  = <div style={{ display: "flex", transform: "rotate(180deg)", hei
 ></div>
 </div>
   return (
+<<<<<<< HEAD
 <div >
 
 
      <div >
+=======
+<div                       >
+
+
+     <div    style={{width:"100%" }}          >
+>>>>>>> 0eed2b9 (Your commit message)
 
 
         <div className="pictureofmusic">
         {animation}
+<<<<<<< HEAD
           <img style={{ width: "100%", height: "80%" }} src={selectsong[0].img} alt={selectsong[0].nameofsong} />
      
         </div>
+=======
+          <img style={{ width: "100%", height: "100%" }} src={selectsong[0].img} alt={selectsong[0].nameofsong} />
+     
+        </div>
+
+>>>>>>> 0eed2b9 (Your commit message)
         <div className="Textofmusic" style={{ color: "white" }}>
           <p style={{ fontSize: "60%" }}>{selectsong[0].nameofsong}  </p>
         </div>
@@ -188,13 +202,22 @@ let animation  = <div style={{ display: "flex", transform: "rotate(180deg)", hei
         <div
           style={{
             backgroundColor:"rgb(40, 40, 43)",
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0eed2b9 (Your commit message)
             justifyContent: "center",
             alignItems: "center",
             alignContent: "center",
             backgroundColor: "#603fef",
             width: "100%",
+<<<<<<< HEAD
             height: "80px",
             alignContent: "center ",
+=======
+            
+          
+>>>>>>> 0eed2b9 (Your commit message)
             alignSelf: "center",
             display: "flex",
           }}
